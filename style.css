@@ -44,7 +44,7 @@ section {
 	background-color: #F2F2F2;
 	border: 1px solid #DEDCD9;
 	border-radius: 5px;
-	margin-bottom: 10px
+	margin-bottom: 5px
 	
 }
 
@@ -88,17 +88,19 @@ aside {
 }
 footer {
 
-	
 		
 	background-color: #F2F2F2;
-	border: 1px solid #DEDCD9;
+	border: 2px solid #DEDCD9;
 	border-radius: 5px;
 	clear: both;
+	position: absolute;
+  bottom: 0;
+  width: 76%;
+  height: 3.4rem;  
 
 	
 }
 footer ul {
-	
 float: left;
 list-style: none;
 padding: 0px;
