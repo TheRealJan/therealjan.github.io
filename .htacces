@@ -1,0 +1,6 @@
+AuthName "Du brauchst ein Passwort, um diese Seite benutzen zu können!
+AuthType Basic
+AuthUserFile
+/customers/7/c/c/therealjan.github.io/httpd.www/.htpasswd
+AuthGroupFile /dev/null
+require valid-user
