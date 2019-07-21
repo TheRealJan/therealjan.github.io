@@ -7,7 +7,7 @@ font-family: arial, sans-serif;
 }
 
 body {
-	background-color: #EDEBE8;
+	
 }
 header {
 padding-top: 10px;
@@ -87,16 +87,18 @@ aside {
 	padding: 5px;
 }
 footer {
+
 	
+		
 	background-color: #F2F2F2;
 	border: 1px solid #DEDCD9;
 	border-radius: 5px;
 	clear: both;
 
-
 	
 }
 footer ul {
+	
 float: left;
 list-style: none;
 padding: 0px;
