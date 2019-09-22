@@ -117,7 +117,7 @@
 <div class="staticrypt-page">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Login</p>
+            <p class="staticrypt-title">TheRealJan | Login</p>
             <p></p>
         </div>
 
@@ -127,16 +127,16 @@
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="Passwort"
+                   placeholder="passphrase"
                    autofocus/>
 
-            <input type="submit" class="staticrypt-decrypt-button" value="Login"/>
+            <input type="submit" class="staticrypt-decrypt-button" value="Einloggen"/>
         </form>
     </div>
 
 </div>
 <footer class="staticrypt-footer">
-    <p class="pull-right">Programmiert von TheRealJan</p>
+    <p class="pull-right">von TheRealJan</a></p>
 </footer>
 
 
@@ -6164,7 +6164,7 @@
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = '4bc208ff4f0a918f313a8cc76cb1730d66f1071c32ff7901f0a1e9459ff020aa310684db3e759b0a6132e5ce2e197331a81cd129356e2425686dd36452702e66H9EQAnRWvULdIDut+3qZJiSJTq221TFzh/2gifdUiUBU5G2+12bTv4v5QoYzTvTWceZAM8ILqKXvh4eqVg8AD4GrdjxtawJ8ebfNTO2cnTgt1tCl5jQGm94aZrtA5v1RLDy+j+I7notVQrhWrPlLTA==',
+            encryptedMsg = '28bf75d36caa7d36abfe751f69ac69255124204650694a475e26eb0ebe6d4920316700395e0d2f8a55a1315d9f9eeb73cee9a5e26d5057a7403baac9af5ebbd46ERX64Q89LxubdPFVfTGjYKxSVSHqWXv4lxepOBUu8tDXO6rpoCu+5B/KFbS3wnbtYO/69JB9RIAZ7WMxjcr6ct7sIm5YCQ2yxOd+7qNQhW6K/Vb1xeksZnJJcW0ekAjTHfZ46fbxOglilbswiq9f7JVtIAt6ZTHMmVftjBBoZvzx8DOp9xrIJquWjs2dk0uU7wVhLZLoVhD/T2DMqSGyDK/Et74XYyKZnfljTzxmcV4el6VGUdIP3X6HOf9OT6vbACH1CLvoJHCD0RhW34LSg==',
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
