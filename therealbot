@@ -1,7 +1,14 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-     <meta http-equiv="refresh" content="0; url=http://bit.ly/TheRealBot" />
-        <title>TheRealBot</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=https://bit.ly/TheRealBot">
+        <script type="text/javascript">
+            window.location.href = "https://bit.ly/TheRealBot"
+        </script>
+        <title>TheRealBot | Invite</title>
     </head>
+    <body>
+        If you are not redirected automatically, follow this <a href='http://example.com'>link to example</a>.
+    </body>
 </html>
